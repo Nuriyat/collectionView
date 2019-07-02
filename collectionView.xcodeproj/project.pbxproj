@@ -14,6 +14,7 @@
 		8404153022BA81D40010E366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8404152E22BA81D40010E366 /* LaunchScreen.storyboard */; };
 		8404153B22BA81D40010E366 /* collectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404153A22BA81D40010E366 /* collectionViewTests.swift */; };
 		8404154622BA81D40010E366 /* collectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404154522BA81D40010E366 /* collectionViewUITests.swift */; };
+		8404155522BA88C30010E366 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404155422BA88C30010E366 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8404154122BA81D40010E366 /* collectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8404154522BA81D40010E366 /* collectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewUITests.swift; sourceTree = "<group>"; };
 		8404154722BA81D40010E366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8404155422BA88C30010E366 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				8404152522BA81D20010E366 /* AppDelegate.swift */,
+				8404155422BA88C30010E366 /* CollectionViewCell.swift */,
 				8404152722BA81D20010E366 /* ViewController.swift */,
 				8404152922BA81D20010E366 /* Main.storyboard */,
 				8404152C22BA81D40010E366 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				8404152822BA81D20010E366 /* ViewController.swift in Sources */,
 				8404152622BA81D20010E366 /* AppDelegate.swift in Sources */,
+				8404155522BA88C30010E366 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
